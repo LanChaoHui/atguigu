@@ -1,0 +1,31 @@
+/**
+	基本数据类型之间的运算
+	前提： 这是讨论的只是7种基本数据类型变量间的运算，不包含boolean类型的。
+
+	1. 自动类型提升：
+			结论：当容量小的数据类型的变量与容量大的数据类型的变量做运算时，结构自动提升为容量大的类型
+			byte-->short-->int-->long-->float-->double
+
+	2. 强制类型转换：
+
+
+	说明：此时的容量大小指的是，表示数的范围的大和小。比如：float容量要大于long的容量
+*/
+class  VariableTest2 {
+    public static void main(String[] args) {
+        byte b1=2;
+        int  i1 =129;
+        // 编译不通过
+        // byte b2 = b1+i1;
+        int i2=b1+i1;
+        long l1=b1+i1;
+        System.out.println(i2);
+
+        float f=b1+i1;
+        System.out.println(f);
+
+        short s1=123;
+        double d1=s1;
+        System.out.println(d1);
+    }
+}
