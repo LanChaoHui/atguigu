@@ -28,5 +28,15 @@ class VariableTest1{
         int i1=1234;
         long l1=3214231L;
         System.out.println(l1);
+		// 2. 浮点型：float(4字节)\double(8个字节)
+		// ① 浮点型，表示带小数点的数值
+		// ② float 表示数值的范围比long还大
+	 double d1=123.3;
+	 System.out.println(d1+1);
+		// ③ 定义float类型变量时，变量要以"F"或"f"结尾
+	 float f1=12.3F;
+	 System.out.println(f1);
+	 // ④ 通常，定义浮点型变量时，使用double 类型
+
     }
 }
