@@ -41,24 +41,24 @@ class VariableTest1 {
         // 3. 字符型：char (1 字符=2 字节)
         // ① 定义char型变量，通常使用一对''
         char c1='a';
-        // 编译不通过
+		// 编译不通过
         //c1='Ab';
         System.out.println(c1);
 
-        char c2='1';
-        char c3='中';
-        char c4='あ';
-        System.out.println(c2);
-        System.out.println(c3);
-        System.out.println(c4);
-
-        // ② 表示方式： 1. 声明一个字符 2. 转义字符
-        char c5='\n'; // 换行符
-        c5='\t'; // 制表符
-        System.out.print("hello"+c5);
-        System.out.println("world");
-
-        char c6='\u0123';
-        System.out.println(c6);
+		char c2='1';
+		char c3='中';
+		char c4='あ';
+		System.out.println(c2);
+		System.out.println(c3);
+		System.out.println(c4);
+		
+		// ② 表示方式： 1. 声明一个字符 2. 转义字符
+		char c5='\n'; // 换行符
+		c5='\t'; // 制表符
+		System.out.print("hello"+c5);
+		System.out.println("world");
+		
+		char c6='\u0123';
+		System.out.println(c6);
     }
 }
