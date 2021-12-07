@@ -38,5 +38,24 @@ class  SetValueTest {
 		// 方式一：num=num+1;
 		// 方式二：num+=1;
 		// 方式三：num++;（推荐）
+
+		// 练习1
+		int i=1;
+		i*=0.1;
+		System.out.println(i);
+		i++;
+		System.out.println(i);
+
+		// 练习2
+		int m = 2;
+		int n =3;
+		n*=m++;// n=n*m++
+		System.out.println("m="+m);// 3
+		System.out.println("n="+n);// 6
+
+		// 练习3
+		n=10;
+		n+=(n++)+(++n);//n+(n++)+(++n)
+		System.out.println("n="+n);//32
     }
 }
