@@ -9,6 +9,11 @@
 
 	  ③ 表达式1 和表达式 2要求是一致的。
 	  ④ 三元运算符是可以嵌套的
+
+	  3.  凡是可以使用三元运算符的地方，都可以改写为 if-else
+	   反之，则不成立
+
+	   4. 如果程序既可以使用三元运算符，又可以使用 if-else结构，那么优先选择三元运算符。原因：简介、执行效率高。
 */
 class  SanYuanTest {
     public static void main(String[] args) {
@@ -35,7 +40,14 @@ class  SanYuanTest {
         System.out.println("三个数中的最大值为："+max2);
 		// 不建议
        //  int max3= (n1 >n2)?((n1>n3)?n1:n3):((n2>n3)?n2:n3);
-        System.out.println("三个数中的最大值为："+max3);
+       //  System.out.println("三个数中的最大值为："+max3);
+
+		// 改写成 if-else
+		if(m>n){
+			System.out.println(m);
+		}else{
+			System.out.println(n);
+		}
 
     }
 }
