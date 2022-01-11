@@ -1,3 +1,6 @@
+/*
+	²âËã¹·µÄÄêÁä
+*/
 import java.util.Scanner;
 class IfExer2 {
     public static void main(String[] args) {
