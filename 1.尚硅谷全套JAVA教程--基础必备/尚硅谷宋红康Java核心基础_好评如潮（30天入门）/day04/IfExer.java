@@ -6,7 +6,8 @@ class IfExer {
             if(y>2)
                 System.out.println(x+y);
         //System.out.println("atguigu");
-            else  // 就近原则
+            else 
                 System.out.println("x  is "+x);
+          
     }
 }
