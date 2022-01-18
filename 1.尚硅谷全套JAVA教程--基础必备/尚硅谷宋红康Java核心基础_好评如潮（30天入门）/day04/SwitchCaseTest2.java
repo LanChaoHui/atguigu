@@ -1,3 +1,7 @@
+/*
+根据用于指定月份，打印该月份所属的季节。
+3,4,5 春季6,7,8 夏季9,10,11 秋季12, 1, 2 冬季
+*/
 import java.util.Scanner;
 class  SwitchCaseTest2 {
     public static void main(String[] args) {
