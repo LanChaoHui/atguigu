@@ -4,6 +4,9 @@
 
 	说明：
 	1. 不在循环条件部分限制吃书的结构：for(;;) 或 while(true)
+	2. 结束循环有几种方式
+		方式一：循环条件部分返回false
+		 方式二：在循环体中，执行break
 */
 import java.util.Scanner;
 class  ForWhileTest {
