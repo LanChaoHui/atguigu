@@ -16,6 +16,7 @@ class  PrimeNumberTest {
 			if(isFlag){
 				System.out.println(i);
 			}else{
+				// ÷ÿ÷√isFlag
 				boolean isFlag=true;
 			}
         }
