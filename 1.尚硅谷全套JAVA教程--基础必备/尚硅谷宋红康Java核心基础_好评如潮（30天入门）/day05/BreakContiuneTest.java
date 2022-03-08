@@ -18,14 +18,17 @@ class BreakContiuneTest
 			}
 			System.out.print(i);
 		}
-		System.out.println();
+		System.out.println("\n");
 		// ***********************************************
-		for(int i=1;i<=4;i++){
+		label:for(int i=1;i<=4;i++){
 			for(int j=1;j<=10;j++){
 				if(j%4==0){
-					break;
+					//break;//  默认跳出宝贵此关键字最近的一层
+					//continue;
+					//break label;// 结束指定标识的一层循环结构
+					continue label;// 结束指定标识一层循环当次循环
 				}
-				System.out.print(i);
+				System.out.print(j);
 			}
 			System.out.println();
 		}
