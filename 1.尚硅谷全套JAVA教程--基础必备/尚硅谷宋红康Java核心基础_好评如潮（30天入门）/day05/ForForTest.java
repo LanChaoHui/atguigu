@@ -45,6 +45,7 @@ class ForForTest {
             }
             System.out.println();
         }
+		  System.out.println();
         /*
         ******
         *****
@@ -59,32 +60,29 @@ class ForForTest {
             }
             System.out.println();
         }
-		/*
-		*    
-        **	  
-        *** 
+        /*
+        *
+        **
+        ***
         ****
         *****
-		******
+        ******
         *****
         ****
         ***
         **
-        *
-		*/
-		// 略
-		/*
-		    * 
-		   * * 
-		  * * * 
-		 * * * * 
-		* * * * * 
-		 * * * * 
-		  * * * 
-		   * * 
-			 * 
-		*/
-		// 上半部分
-		// 下半部分
+        */
+        for(int i=1; i<=5; i++) { // 行数
+            for(int j=1; j<=i; j++) { // 几个
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for(int i=1; i<=6; i++) {
+            for(int j=6; j>=i; j--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
