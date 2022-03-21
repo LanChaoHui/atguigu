@@ -21,8 +21,13 @@ class FamliyAccount {
                 System.out.println("3.登记支出");
                 break;
             case '4':
-                System.out.println("4.退\n出");
-                break;
+                // System.out.println("4.退\n出");
+                System.out.print("确认是否退出(Y/N)：");
+                char isExit=Utility.readConfirmSelection();
+				if(isExit=='Y'){
+					isFlag=false;
+				}
+                //break;
             }
         }
     }
