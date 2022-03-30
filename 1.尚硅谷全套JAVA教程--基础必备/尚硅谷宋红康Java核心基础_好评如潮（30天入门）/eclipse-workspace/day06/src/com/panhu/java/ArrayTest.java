@@ -23,8 +23,8 @@ package com.panhu.java;
  * 		② 如何调用数组的指定位置的元素
  * 		③ 如何获取数组的长度
  * 		④ 如何遍历数组
- * 		⑤ 数组元素的默认初始值
- * 		⑥ 数组内存解析
+ * 		⑤ 数组元素的默认初始值 见 ArrayTest1.java
+ * 		⑥ 数组内存解析 见 ArrayTest1.java
  *
  */
 public class ArrayTest {
